@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#FFCC00</item>
+        <item name="android:textColor">#FFCC00</item>
+        <item name="android:windowBackground">@drawable/background</item>
+        <item name="android:checkboxStyle">@style/CheckBoxStyle</item>
+        <item name="editTextStyle">@style/EditTextStyle</item>
+    </style>
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+    <style name="CheckBoxStyle" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:textColor">#FFCC00</item>
+        <item name="buttonTint">#FFCC00</item>
+    </style>
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">#FFCC00</item>
+    </style>
+</resources>
